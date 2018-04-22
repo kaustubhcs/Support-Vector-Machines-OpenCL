@@ -4,21 +4,10 @@
 using namespace std;
 
 // Global Variables
-int debug = 0;
-long pid = -1;
+
+
 //**********   MAIN FUNCTION   **********
 
-// For reference only, actual declaration in Functions Header.
-/*
-struct MemoryRegion
-{
-  void *startAddr;
-  void *endAddr;
-  int isReadable;
-  int isWriteable;
-  int isExecutable;
-};
-*/
 
 int main (int argc, char *argv[] ) {
 
