@@ -45,6 +45,16 @@ cout << "\n\n\n\n\n\n\n\n\n\n\e[1;32mProgram Start\e[0m\n";
     }
 
 
+
+// ++++++ READ ARRAY FROM FILE ++++++ 
+
+
+// ++++++ PERFORM SVM ++++++ 
+
+
+// ++++++ TEST RESULT ++++++ 
+
+
 cout << "\n\e[1;31mProgram End\e[0m\n\n\n";
 return 0;
 }
