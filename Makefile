@@ -26,7 +26,7 @@ $(OBJ_DIR)/%.o: $(CODE_DIR)/%.cpp
 
 clean:
 	printf "\n\e[1;32mCleaning all files\e[0m\n"
-	rm $(OBJ_DIR)/*.o $(BIN_DIR)/*.bin $(ROOT_DIR)/*.bin
+	rm -rf $(OBJ_DIR)/*.o $(BIN_DIR)/*.bin $(ROOT_DIR)/*.bin
 
 run: all
 	$(BIN_DIR)/$(TARGET)
